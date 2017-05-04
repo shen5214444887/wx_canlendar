@@ -1,0 +1,123 @@
+/* pages/calendar/calendar.wxss */
+
+.canlendarBgView {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canlendarView {
+  color: #17b7b2;
+  display: flex;
+  flex-direction: column;
+}
+
+.canlendarTopView {
+  height: 80rpx;
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftBgView {
+  text-align: right;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.leftView {
+  width: 80rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.centerView {
+  width: 50%;
+  height: 80rpx;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightBgView {
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.rightView {
+  width: 80rpx;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.weekBgView {
+  height: 50rpx;
+  line-height: 50rpx;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekView {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.dateBgView {
+  height: 500rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dateEmptyView {
+  width: 107.1428571429rpx;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dateView {
+  width: 107.1428571429rpx;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.datesView {
+  width: 60rpx;
+  height: 60rpx;
+  color: #17b7b2;
+  font-size: 26rpx;
+  font-weight: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dateSelectView {
+  border-radius: 50%;
+  position: relative;
+  left: 0;
+  top: 0;
+  color: #fff;
+  background-color: #17b7b2;
+}
